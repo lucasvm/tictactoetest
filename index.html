@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <style>
+    #legend {
+        font-size: 150%
+    }
+	.footer {
+	  text-align: center;
+	}
+  </style>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="row">
+    <div class="col-md-2 col-md-offset-5">
+		<div id='game'>
+			<canvas id='canvas' width='300' height='300'></canvas>
+			<div id='legend'></div>
+			<div class="footer">
+				<p>Player 1 : X </p>
+				<input class="btn-info" type="button" value="Play Again!" onClick="window.location.reload()">
+			</div>
+		</div>
+	</div>
+   </div>
+  
+
+  <script src="jquery.min.js"></script>
+  <script src="tictactoegame.js"></script>
+</body>
+</html>
